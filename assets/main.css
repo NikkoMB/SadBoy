@@ -35,18 +35,21 @@ h3 {
   margin-top: 30px;
   margin-left: 640px;
   font-family: 'Merriweather', serif;
+  opacity: 0;
 
 }
 
 #email {
   margin-left: 590px;
   font-family: 'Merriweather', serif;
+  opacity: 0;
 }
 
 #bio {
   margin-top: 80px;  
   margin-left: 420px;
   font-family: 'Staatliches', cursive;
+  opacity: 0;
 
 
 }
@@ -72,6 +75,7 @@ h3 {
   height: 500px;
   width: 590px;
   margin-left: 420px;
+  opacity: 0;
 }
 
 #corner{
