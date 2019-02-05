@@ -1,8 +1,3 @@
-body {
-	cursor: url('emoji.cur'), default;
-}
-
-
 #logo {
   margin-left: 459px;
   margin-top: 300px;
@@ -10,7 +5,7 @@ body {
   width: 500px;
   opacity: 0;
   color: black;
-  
+
 
 }
 
@@ -24,7 +19,7 @@ h3 {
 }
 
 .navi {
-  margin-top: 330px;
+  margin-top: 60px;
   font-size: 7px;
   opacity: 0;
 }
@@ -52,7 +47,7 @@ h3 {
 }
 
 #bio {
-  margin-top: 80px;  
+  margin-top: 80px;
   margin-left: 420px;
   font-family: 'Staatliches', cursive;
   opacity: 0;
@@ -84,12 +79,25 @@ h3 {
   opacity: 0;
 }
 
-#corner{
-  height: 150px; 
+#corner {
+  height: 150px;
   width: 150px;
   margin-left: 1300px;
 }
 
+ul {
+  height: 400px;
+  width: 50%;
+  opacity: 0;
+}
+
+ ul {
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  opacity: 0;
+}
 
 
 /* ----------- Non-Retina Screens ----------- */

@@ -9,5 +9,6 @@ $( document ).ready(function() {
     $('#bio').delay(1800).animate({'opacity':'1'},1000);
     $('#ig').delay(2800).animate({'opacity':'1'},1000);
     $('#email').delay(3800).animate({'opacity':'1'},1000);
+    $('ul').delay(800).animate({'opacity':'1'},1000);
     
 });
