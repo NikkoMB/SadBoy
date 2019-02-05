@@ -1,68 +1,87 @@
-#logo{
-    margin-left: 459px; 
-    margin-top: 300px; 
-    font-size: 70px; 
-    font-family: 'Special Elite', cursive;
-    opacity: 0;
-    color: black; 
+#logo {
+  margin-left: 459px;
+  margin-top: 300px;
+  height: 150px;
+  width: 500px;
+  opacity: 0;
+  color: black;
 
 }
 
-a{
-    margin-left: 630px; 
-    margin-top: 2px; 
-    opacity: 0;
-    text-decoration: none;
+
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  color: black;
+  text-decoration: none;
 
 }
 
-h3{
-    font-family: 'Special Elite', cursive;
-    color:black;
-    text-decoration: none;
+.navi {
+  margin-top: 500px;
+  font-size: 7px;
+  opacity: 0;
+}
+
+#anchor:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 
 }
 
-h3:hover 
-{
-     color:black;
-     text-decoration:none; 
-     cursor:pointer;  
-}
-
-.navi{
-    margin-top: 400px; 
-    font-size: 7px; 
-    opacity: 0; 
-}
-
-a:hover{
-    color:black;
-    text-decoration:none; 
-    cursor:pointer;  
-    text-decoration: none;
+#ig {
+  margin-top: 30px;
+  margin-left: 640px;
+  font-family: 'Merriweather', serif;
 
 }
 
-body{
-    cursor: url('assets/images/emoji.png'), auto; 
+#email {
+  margin-left: 545px;
+  font-family: 'Merriweather', serif;
 }
+
+#bio {
+  margin-top: 80px;  
+  margin-left: 420px;
+  font-family: 'Staatliches', cursive;
+
+
+}
+
+#construction {
+  height: 300px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 448px;
+  opacity: 0;
+
+}
+
+#work {
+  margin-top: 400px;
+  font-family: 'Special Elite', cursive;
+  color: black;
+  font-size: 50px;
+  opacity: 0;
+}
+
+#world {
+  height: 500px;
+  width: 590px;
+  margin-left: 420px;
+}
+
+
+
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-
-}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
 
 /*--------- Mobile Compatible ----------------- */
 /* 
@@ -71,62 +90,58 @@ body{
 */
 
 @media (min-width: 1281px) {
-  
-    /*CSS*/
-    
-  }
-  
-  /* 
+
+  /*CSS*/
+
+}
+
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    //CSS
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  //CSS
+
+}
+
+/* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    //CSS
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  //CSS
+
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    //CSS
-    
-  }
-  
-  /* 
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  //CSS
+
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    //CSS
-    
-  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
