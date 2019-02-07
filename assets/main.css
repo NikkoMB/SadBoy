@@ -77,7 +77,7 @@ h3 {
 }
 
 ul {
-  height: 400px;
+  height: 300px;
   width: 50%;
   opacity: 0;
 }
@@ -88,6 +88,8 @@ ul {
   margin-left: 400px;
   opacity: 0;
 }
+
+
 
 
 /* ----------- Non-Retina Screens ----------- */
