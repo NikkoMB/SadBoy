@@ -18,17 +18,28 @@ h3 {
 
 }
 
+#shopping{
+  opacity: 0;
+}
+
+a{
+  font-family: 'Special Elite', cursive;
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+}
+
 .navi {
   opacity: 0;
 
 }
 
+#shop{
+  margin-top: 30px;
+}
+
 #anchor:hover {
   color: black;
-  text-decoration: none;
-  cursor: pointer;
-  text-decoration: none;
-
 }
 
 #ig {
@@ -73,7 +84,7 @@ h3 {
 #corner {
   height: 150px;
   width: 150px;
-  margin-left: 1300px;
+  margin-left: 1288px;
 }
 
 ul {
