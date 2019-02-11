@@ -8,6 +8,7 @@ $( document ).ready(function() {
     $('#construction').delay(800).animate({'opacity':'1'},1000);
     $('#world').delay(700).animate({'opacity':'1'},1000);
     $('#bio').delay(1800).animate({'opacity':'1'},1000);
+    $('#bioo').delay(2000).animate({'opacity':'1'},1000);
     $('#ig').delay(2800).animate({'opacity':'1'},1000);
     $('#email').delay(3800).animate({'opacity':'1'},1000);
     $('#work').delay(4200).animate({'opacity':'1'},1000);
