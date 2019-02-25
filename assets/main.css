@@ -111,16 +111,143 @@ ul {
 
 
 
-/* Portrait and Landscape */
+/* Portrait and Landscape iPhone X */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    #logo {
+      margin-left: 80px;
+      margin-top: 300px;
+      height: 80px;
+      width: 200px;
+      opacity: 0;
+      color: black;
+    
+    
+    }
+    
+    #ig_icon{
+      margin-left: 1600px;
+      height: 100px;
+      opacity: 0;
 
+      
+    }
+    
+    h3 {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+    
+    }
+    
+    #shopping{
+      opacity: 0;
+      margin-left: 120px;
+    }
+    
+    a{
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+      font-size: 50px;
+    }
+    
+    .navi {
+      opacity: 0;
+      margin-left: 120px;
+    
+    }
+    
+    #shop{
+      margin-top: 30px;
+    }
+    
+    #anchor:hover {
+      color: black;
+    }
+    
+    #ig {
+      margin-top: 30px;
+      margin-left: 780px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    
+    }
+    
+    #email {
+      margin-left: 590px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    }
+    
+    #bio {
+      margin-left: 510px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    
+    }
+    
+    #bioo{
+      margin-left: 500px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    }
+    
+    #work {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      font-size: 100px;
+      opacity: 0;
+      margin-bottom: 100px;
+      margin-left: 880px;
+
+    }
+    
+    #world {
+      height: 1000px;
+      width: 1900px;
+      margin-left: 120px;
+      opacity: 0;
+    }
+    
+    #corner {
+      height: 150px;
+      width: 150px;
+      margin-left: 122px;
+    }
+    
+    ul {
+      height: 420px;
+      width: 50%;
+      opacity: 0;
+
+    }
+    
+     ul {
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 100px;
+      opacity: 0;
+    }
+    
+    iframe{
+      width: 200px;
+      height: 115px;
+    }
 
 }
 
-/* Portrait */
+/* Portrait iPhone X */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
