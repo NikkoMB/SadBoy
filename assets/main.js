@@ -12,6 +12,7 @@ $( document ).ready(function() {
     $('#ig').delay(2800).animate({'opacity':'1'},1000);
     $('#email').delay(3800).animate({'opacity':'1'},1000);
     $('#work').delay(4200).animate({'opacity':'1'},1000);
+    $('#ig_icon').delay(4500).animate({'opacity':'1'},1000);
     $('ul').delay(800).animate({'opacity':'1'},1000);
     
 });
