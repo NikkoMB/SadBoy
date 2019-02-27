@@ -650,7 +650,7 @@ ul {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     #logo {
-      margin-left: 110px;
+      margin-left: 100px;
       margin-top: 300px;
       height: 80px;
       width: 200px;
