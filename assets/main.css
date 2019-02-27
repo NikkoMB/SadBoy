@@ -37,6 +37,7 @@ a{
 .navi {
   opacity: 0;
 
+
 }
 
 #shop{
@@ -247,11 +248,535 @@ ul {
 
 }
 
-/* Portrait iPhone X */
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 411px) 
+  and (device-height: 731px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    #logo {
+      margin-left: 80px;
+      margin-top: 300px;
+      height: 80px;
+      width: 200px;
+      opacity: 0;
+      color: black;
+    
+    
+    }
+    
+    #ig_icon{
+      margin-left: 1600px;
+      height: 100px;
+      opacity: 0;
+
+      
+    }
+    
+    h3 {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+    
+    }
+    
+    #shopping{
+      opacity: 0;
+      margin-left: 120px;
+    }
+    
+    a{
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+      font-size: 50px;
+    }
+    
+    .navi {
+      opacity: 0;
+      margin-left: 150px;
+    
+    }
+    
+    #shop{
+      margin-top: 30px;
+    }
+    
+    #anchor:hover {
+      color: black;
+    }
+    
+    #ig {
+      margin-top: 30px;
+      margin-left: 780px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    
+    }
+    
+    #email {
+      margin-left: 590px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    }
+    
+    #bio {
+      margin-left: 510px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    
+    }
+    
+    #bioo{
+      margin-left: 500px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    }
+    
+    #work {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      font-size: 100px;
+      opacity: 0;
+      margin-bottom: 100px;
+      margin-left: 880px;
+
+    }
+    
+    #world {
+      height: 1000px;
+      width: 1900px;
+      margin-left: 120px;
+      opacity: 0;
+    }
+    
+    #corner {
+      height: 150px;
+      width: 150px;
+      margin-left: 500px;
+    }
+    
+    ul {
+      height: 420px;
+      width: 50%;
+      opacity: 0;
+
+    }
+    
+     ul {
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 10px;
+      opacity: 0;
+    }
+    
+    iframe{
+      width: 200px;
+      height: 115px;
+    }
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #logo {
+      margin-left: 80px;
+      margin-top: 300px;
+      height: 80px;
+      width: 200px;
+      opacity: 0;
+      color: black;
+    
+    
+    }
+    
+    #ig_icon{
+      margin-left: 1600px;
+      height: 100px;
+      opacity: 0;
+
+      
+    }
+    
+    h3 {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+    
+    }
+    
+    #shopping{
+      opacity: 0;
+      margin-left: 120px;
+    }
+    
+    a{
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+      font-size: 50px;
+    }
+    
+    .navi {
+      opacity: 0;
+      margin-left: 120px;
+    
+    }
+    
+    #shop{
+      margin-top: 30px;
+    }
+    
+    #anchor:hover {
+      color: black;
+    }
+    
+    #ig {
+      margin-top: 30px;
+      margin-left: 780px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    
+    }
+    
+    #email {
+      margin-left: 590px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 60px;
+    }
+    
+    #bio {
+      margin-left: 510px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    
+    }
+    
+    #bioo{
+      margin-left: 500px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 300px;
+      font-weight: 30px;
+      line-height: 100%;
+    }
+    
+    #work {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      font-size: 100px;
+      opacity: 0;
+      margin-bottom: 100px;
+      margin-left: 880px;
+
+    }
+    
+    #world {
+      height: 1000px;
+      width: 1900px;
+      margin-left: 120px;
+      opacity: 0;
+    }
+    
+    #corner {
+      height: 150px;
+      width: 150px;
+      margin-left: 122px;
+    }
+    
+    ul {
+      height: 420px;
+      width: 50%;
+      opacity: 0;
+
+    }
+    
+     ul {
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 100px;
+      opacity: 0;
+    }
+    
+    iframe{
+      width: 200px;
+      height: 115px;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #logo {
+      margin-left: 110px;
+      margin-top: 300px;
+      height: 80px;
+      width: 200px;
+      opacity: 0;
+      color: black;
+    
+    
+    }
+    
+    #ig_icon{
+      margin-left: 145px;
+      margin-top: 40px;
+      height: 90px;
+      opacity: 0;
+
+      
+    }
+    
+    h3 {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+    
+    }
+    
+    #shopping{
+      opacity: 0;
+      margin-left: 120px;
+    }
+    
+    a{
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+      font-size: 50px;
+    }
+    
+    .navi {
+      opacity: 0;
+      margin-left: 120px;
+    
+    }
+    
+    #shop{
+      margin-top: 30px;
+    }
+    
+    #anchor:hover {
+      color: black;
+    }
+    
+    #ig {
+      margin-top: 30px;
+      margin-left: 80px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 30px;
+    
+    }
+    
+    #email {
+      margin-left: 31px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+      font-size: 25px;
+    }
+    
+    #bio {
+      margin-left: 30px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 70px;
+      font-weight: 30px;
+      line-height: 100%;
+    
+    }
+    
+    #bioo{
+      margin-left: 30px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+      font-size: 70px;
+      font-weight: 40px;
+      line-height: 100%;
+    }
+    
+    #work {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      font-size: 40px;
+      opacity: 0;
+      margin-bottom: 100px;
+      margin-left: 140px;
+
+    }
+    
+    #world {
+      height: 300px;
+      width: 420px;
+      margin-left: 1px;
+      opacity: 0;
+    }
+    
+    #corner {
+      height: 150px;
+      width: 150px;
+      margin-left: 122px;
+    }
+    
+    ul {
+      height: 420px;
+      width: 50%;
+      opacity: 0;
+
+    }
+    
+     ul {
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 100px;
+      opacity: 0;
+    }
+    
+    iframe{
+      width: 200px;
+      height: 115px;
+    }
 
 }
