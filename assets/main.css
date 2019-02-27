@@ -505,8 +505,9 @@ ul {
     }
     
     #ig_icon{
-      margin-left: 1600px;
-      height: 100px;
+      margin-left: 125px;
+      margin-top: 40px;
+      height: 90px;
       opacity: 0;
 
       
@@ -547,53 +548,53 @@ ul {
     
     #ig {
       margin-top: 30px;
-      margin-left: 780px;
+      margin-left: 70px;
       font-family: 'Merriweather', serif;
       opacity: 0;
-      font-size: 60px;
+      font-size: 25px;
     
     }
     
     #email {
-      margin-left: 590px;
+      margin-left: 31px;
       font-family: 'Merriweather', serif;
       opacity: 0;
-      font-size: 60px;
+      font-size: 20px;
     }
     
     #bio {
-      margin-left: 510px;
+      margin-left: 30px;
       font-family: 'Staatliches', cursive;
       opacity: 0;
-      font-size: 300px;
+      font-size: 70px;
       font-weight: 30px;
       line-height: 100%;
     
     }
     
     #bioo{
-      margin-left: 500px;
+      margin-left: 30px;
       font-family: 'Staatliches', cursive;
       opacity: 0;
-      font-size: 300px;
-      font-weight: 30px;
+      font-size: 70px;
+      font-weight: 40px;
       line-height: 100%;
     }
     
     #work {
       font-family: 'Special Elite', cursive;
       color: black;
-      font-size: 100px;
+      font-size: 40px;
       opacity: 0;
       margin-bottom: 100px;
-      margin-left: 880px;
+      margin-left: 120px;
 
     }
     
     #world {
-      height: 1000px;
-      width: 1900px;
-      margin-left: 120px;
+      height: 200px;
+      width: 320px;
+      margin-left: 1px;
       opacity: 0;
     }
     
@@ -623,6 +624,7 @@ ul {
     }
 
 }
+
 
 /* Portrait */
 @media only screen 
