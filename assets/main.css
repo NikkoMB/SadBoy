@@ -782,3 +782,129 @@ ul {
     }
 
 }
+
+/* BIGGER SCREENS! ------------------------------------------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #logo {
+      margin-left: 760px;
+      margin-top: 420px;
+      height: 150px;
+      width: 500px;
+      opacity: 0;
+      color: black;
+    
+    
+    }
+    
+    #ig_icon{
+      margin-left: 1500px;
+      height: 40px;
+      opacity: 0;
+      
+    }
+    
+    h3 {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+    
+    }
+    
+    #shopping{
+      opacity: 0;
+    }
+    
+    a{
+      font-family: 'Special Elite', cursive;
+      color: black;
+      text-decoration: none;
+      font-size: 50px;
+    }
+    
+    .navi {
+      opacity: 0;
+      margin-left: 1px;
+    
+    
+    
+    }
+
+   #anchor{
+    margin-left: 300px;
+   }
+    
+    #shop{
+      margin-top: 30px;
+    }
+    
+    #anchor:hover {
+      color: black;
+    }
+    
+    #ig {
+      margin-top: 30px;
+      margin-left: 900px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+    
+    }
+    
+    #email {
+      margin-left: 850px;
+      font-family: 'Merriweather', serif;
+      opacity: 0;
+    }
+    
+    #bio {
+      margin-left: 770px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+    
+    
+    }
+    
+    #bioo{
+      margin-left: 880px;
+      font-family: 'Staatliches', cursive;
+      opacity: 0;
+    }
+    
+    #work {
+      font-family: 'Special Elite', cursive;
+      color: black;
+      font-size: 50px;
+      opacity: 0;
+      margin-bottom: 100px;
+    }
+    
+    #world {
+      height: 500px;
+      width: 590px;
+      margin-left: 700px;
+      opacity: 0;
+    }
+    
+    #corner {
+      height: 150px;
+      width: 150px;
+      margin-left: 1710px;
+    }
+    
+    ul {
+      height: 420px;
+      width: 60%;
+      opacity: 0;
+    }
+    
+     ul {
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 720px;
+      opacity: 0;
+    }
+    
+
+}
