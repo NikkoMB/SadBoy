@@ -785,7 +785,7 @@ ul {
 
 /* BIGGER SCREENS! ------------------------------------------- */
 @media screen 
-  and (min-device-width: 1200px) 
+  and (min-device-width: 1500px) 
   and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     #logo {
@@ -972,7 +972,7 @@ ul {
     }
     
     #email {
-      margin-left: 590px;
+      margin-left: 610px;
       font-family: 'Merriweather', serif;
       opacity: 0;
     }
