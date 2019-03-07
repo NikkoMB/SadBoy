@@ -662,20 +662,20 @@ ul {
     
     #ig {
       margin-top: 30px;
-      margin-left: 795px;
+      text-align: auto;
       font-family: 'Merriweather', serif;
       opacity: 0;
     
     }
     
     #email {
-      margin-left: 762px;
+      text-align: auto;
       font-family: 'Merriweather', serif;
       opacity: 0;
     }
     
     #bio {
-      margin-left: 670px;
+      text-align: auto;
       font-family: 'Staatliches', cursive;
       opacity: 0;
     
@@ -683,7 +683,7 @@ ul {
     }
     
     #bioo{
-      margin-left: 780px;
+      text-align: auto;
       font-family: 'Staatliches', cursive;
       opacity: 0;
     }
@@ -700,7 +700,7 @@ ul {
     #world {
       height: 500px;
       width: 590px;
-      margin-left: 570px;
+      text-align: auto;
       opacity: 0;
     }
     
